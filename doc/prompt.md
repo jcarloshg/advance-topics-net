@@ -18,13 +18,13 @@ I want to master .NET development and need a structured learning guide.
 
 ### For each topic, include:
 
-| Section | Details |
-|---------|---------|
-| Topic name | Clear, specific name |
-| Description | What it is and why it matters (2-3 sentences) |
-| Key concepts | 3-5 essential subtopics |
-| Skill level | Beginner / Intermediate / Advanced |
-| Priority | Must-know / Should-know / Nice-to-know |
+| Section      | Details                                       |
+| ------------ | --------------------------------------------- |
+| Topic name   | Clear, specific name                          |
+| Description  | What it is and why it matters (2-3 sentences) |
+| Key concepts | 3-5 essential subtopics                       |
+| Skill level  | Beginner / Intermediate / Advanced            |
+| Priority     | Must-know / Should-know / Nice-to-know        |
 
 ---
 

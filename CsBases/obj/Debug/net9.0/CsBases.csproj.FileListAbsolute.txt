@@ -1,0 +1,15 @@
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/bin/Debug/net9.0/CsBases
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/bin/Debug/net9.0/CsBases.deps.json
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/bin/Debug/net9.0/CsBases.runtimeconfig.json
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/bin/Debug/net9.0/CsBases.dll
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/bin/Debug/net9.0/CsBases.pdb
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/obj/Debug/net9.0/CsBases.GeneratedMSBuildEditorConfig.editorconfig
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/obj/Debug/net9.0/CsBases.AssemblyInfoInputs.cache
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/obj/Debug/net9.0/CsBases.AssemblyInfo.cs
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/obj/Debug/net9.0/CsBases.csproj.CoreCompileInputs.cache
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/obj/Debug/net9.0/CsBases.sourcelink.json
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/obj/Debug/net9.0/CsBases.dll
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/obj/Debug/net9.0/refint/CsBases.dll
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/obj/Debug/net9.0/CsBases.pdb
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/obj/Debug/net9.0/CsBases.genruntimeconfig.cache
+/home/jcarloshg/Documents/school/advance-topics-net/CsBases/obj/Debug/net9.0/ref/CsBases.dll

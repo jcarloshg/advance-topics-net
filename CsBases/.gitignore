@@ -1,0 +1,272 @@
+# =====================================================================
+# BUILD ARTIFACTS & COMPILATION
+# =====================================================================
+## Folders
+bin/
+obj/
+.vs/
+.vscode/
+.idea/
+
+## Build results
+*.dll
+*.exe
+*.lib
+*.so
+*.dylib
+*.a
+*.pdb
+*.obj
+*.o
+*.exp
+*.ilk
+*.res
+*.manifest
+*.appx
+*.msix
+
+## Platform-specific executables
+[Bb]in/[Dd]ebug/
+[Bb]in/[Rr]elease/
+[Oo]bj/[Dd]ebug/
+[Oo]bj/[Rr]elease/
+
+# =====================================================================
+# VISUAL STUDIO & IDE FILES
+# =====================================================================
+## Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.sln.docstates
+*.user
+*.userosscache
+*.sln.switches
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+launch.json
+settings.json
+extensions.json
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+## Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+## Vim
+.vim/
+*.swp
+*.swo
+*~
+
+# =====================================================================
+# NUGET & PACKAGE MANAGEMENT
+# =====================================================================
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+.packages/
+nuget.config.user
+*.nuget.props
+*.nuget.targets
+
+## NuGet lock files (optional - comment out if using lock files)
+# packages.lock.json
+
+# =====================================================================
+# USER SECRETS & SENSITIVE DATA
+# =====================================================================
+## .NET Core user secrets
+appsettings.*.json
+appsettings.local.json
+secrets.json
+user-secrets-id
+
+## Environment files
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# =====================================================================
+# DEBUG & TEST FILES
+# =====================================================================
+## Test Results
+TestResults/
+*.trx
+*.coverage
+opencover.xml
+codecov.json
+
+## Code Coverage
+coverage/
+*.coveragexml
+
+## NUnit
+nunit_results.xml
+
+## XUnit
+xunit.runner.json
+
+## MSTest
+TestResult.xml
+
+# =====================================================================
+# TEMPORARY & CACHE FILES
+# =====================================================================
+## Temporary files
+*.tmp
+*.temp
+*.log
+*.orig
+*.bak
+*.swp
+*~
+
+## Cache files
+*.cache
+*.CacheFile
+
+## Rider cache
+.idea/shelf
+
+## Local history
+.history/
+*.patch
+*.diff
+
+# =====================================================================
+# OS-SPECIFIC FILES
+# =====================================================================
+## Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+desktop.ini
+$RECYCLE.BIN/
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+## Linux
+.directory
+.gvfs
+
+# =====================================================================
+# PUBLISH & RELEASE
+# =====================================================================
+## Publish files
+PublishProfiles/
+*.PublishSettings
+*.pubxml
+*.pubxml.user
+
+## Web publish log
+*.log
+RdClient.log
+
+## Installer files
+*.cab
+*.msi
+*.msp
+*.msix
+*.msixbundle
+
+## ClickOnce
+publish/
+
+# =====================================================================
+# DOCUMENTATION & REPORTS
+# =====================================================================
+## API Documentation
+docs/_build/
+site/
+
+## Reports
+reports/
+metrics/
+analysis/
+
+# =====================================================================
+# VISUAL STUDIO EXTENSIONS
+# =====================================================================
+*.vsix
+.vs/
+
+# =====================================================================
+# NODE MODULES (if using npm/yarn for frontend)
+# =====================================================================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# =====================================================================
+# DATABASE & DATA FILES
+# =====================================================================
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.ndf
+*.ibd
+
+# =====================================================================
+# RESHARPER FILES
+# =====================================================================
+_ReSharper*/
+*.DotSettings.user
+.resharper
+resharper.cache_
+
+# =====================================================================
+# CODE ANALYSIS
+# =====================================================================
+StyleCopViolations.xml
+FxCopResults.xml
+
+# =====================================================================
+# AZURE & CLOUD
+# =====================================================================
+azure-pipelines/*.user
+cloud.config
+.DeploymentCache
+
+# =====================================================================
+# MISC
+# =====================================================================
+## Generated files
+*.generated.cs
+*.g.cs
+
+## ncov files
+ncov/
+
+## Local npm modules for build scripts
+.build-tools/
+
+# NEVER COMMIT THESE - DANGEROUS!
+# =====================================================================
+# Remove these comments and add your actual files if needed
+# *.csproj.user  - Uncomment if using local project overrides
+# appsettings.json - Uncomment if it contains sensitive data

@@ -13,10 +13,11 @@ async Task Main()
     Console.WriteLine("1. Core Syntax & Data Types");
     Console.WriteLine("2. Object-Oriented Programming (OOP)");
     Console.WriteLine("3. Async/Await & Threading");
-    Console.WriteLine("4. Run All Examples");
-    Console.Write("\nEnter your choice (1-4): ");
+    Console.WriteLine("4. Memory & Resource Management");
+    Console.WriteLine("5. Run All Examples");
+    Console.Write("\nEnter your choice (1-5): ");
 
-    string choice = Console.ReadLine() ?? "4";
+    string choice = Console.ReadLine() ?? "5";
 
 switch (choice)
 {
@@ -46,6 +47,14 @@ switch (choice)
 
     case "4":
         Console.WriteLine("\n═══════════════════════════════════════════════");
+        Console.WriteLine("   MEMORY & RESOURCE MANAGEMENT");
+        Console.WriteLine("═══════════════════════════════════════════════\n");
+        var memory = new MemoryResourceManagementExamples();
+        await memory.RunAllExamplesAsync();
+        break;
+
+    case "5":
+        Console.WriteLine("\n═══════════════════════════════════════════════");
         Console.WriteLine("   CORE SYNTAX & DATA TYPES");
         Console.WriteLine("═══════════════════════════════════════════════\n");
         var coreSyntaxAll = new CoreSyntaxExamples();
@@ -62,6 +71,12 @@ switch (choice)
         Console.WriteLine("═══════════════════════════════════════════════\n");
         var asyncAwaitAll = new AsyncAwaitExamples();
         await asyncAwaitAll.RunAllExamplesAsync();
+
+        Console.WriteLine("\n\n═══════════════════════════════════════════════");
+        Console.WriteLine("   MEMORY & RESOURCE MANAGEMENT");
+        Console.WriteLine("═══════════════════════════════════════════════\n");
+        var memoryAll = new MemoryResourceManagementExamples();
+        await memoryAll.RunAllExamplesAsync();
         break;
 
     default:
@@ -72,6 +87,8 @@ switch (choice)
         defaultOop.RunAllExamples();
         var defaultAsyncAwait = new AsyncAwaitExamples();
         await defaultAsyncAwait.RunAllExamplesAsync();
+        var defaultMemory = new MemoryResourceManagementExamples();
+        await defaultMemory.RunAllExamplesAsync();
         break;
 }
 }
